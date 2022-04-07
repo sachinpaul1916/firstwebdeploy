@@ -1,0 +1,80 @@
+div{
+    display:flex;
+    justify-content: space-between;
+}
+
+ul{
+    display:flex;
+    justify-content: space-around;
+    width: 20rem;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+a:link{
+    color:black;
+}
+a:visited{
+
+    color:black;
+
+}
+a:hover{
+    color:red;
+}
+a:active{
+    color:red;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+}
+
+h1{
+    margin-left: 1rem;
+}
+nav{
+    margin-right: 1rem;
+}
+
+ul>li {
+   width: 30%;
+    font-size: 1.5rem;
+    
+}
+.main-img{
+    width: 100%;
+    height:"auto";
+}
+
+
+    .parent {
+        /* border: 10px solid red; */
+        margin-top: 2rem;
+        display: flex;
+        /* text inside that parent 
+        includes image will be centered  */
+        text-align: center;
+        justify-content: space-evenly;
+    }
+.child{
+    width:30%;
+}
+.footer-parent{
+     background-color: black;
+     height: 5rem;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white;
+     font-size: 2rem;
+    
+
+
+}
