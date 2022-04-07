@@ -66,15 +66,21 @@ ul>li {
 .child{
     width:30%;
 }
-.footer-parent{
-     background-color: black;
-     height: 5rem;
-     display: flex;
-     align-items: center;
-     justify-content: center;
-     color: white;
-     font-size: 2rem;
-    
+/* footer tag */
+.footer_parent {
+    height: 5rem;
+    background-color: black;
+    /* it is used to perfectly center a div*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-
+.footer_content {
+    color: white;
+    /* boldness */
+    font-weight: 500;
+    font-size: 1.5rem;
+    /* enforce uppercase */
+    text-transform: uppercase;
 }
